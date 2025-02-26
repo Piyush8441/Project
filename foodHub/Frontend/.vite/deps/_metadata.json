@@ -1,0 +1,55 @@
+{
+  "hash": "ad201abe",
+  "configHash": "f741adbe",
+  "lockfileHash": "e2525b77",
+  "browserHash": "d29117ba",
+  "optimized": {
+    "bootstrap/dist/js/bootstrap.bundle.js": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+      "file": "bootstrap_dist_js_bootstrap__bundle__js.js",
+      "fileHash": "e66ae73e",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "da858bf7",
+      "needsInterop": true
+    },
+    "react-bootstrap/Badge": {
+      "src": "../../node_modules/react-bootstrap/esm/Badge.js",
+      "file": "react-bootstrap_Badge.js",
+      "fileHash": "c2eeea27",
+      "needsInterop": false
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "47945bcf",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "3eb4d66f",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "e59ff154",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5WPMICN3": {
+      "file": "chunk-5WPMICN3.js"
+    },
+    "chunk-VUPZMC2T": {
+      "file": "chunk-VUPZMC2T.js"
+    },
+    "chunk-EQCVQC35": {
+      "file": "chunk-EQCVQC35.js"
+    }
+  }
+}
