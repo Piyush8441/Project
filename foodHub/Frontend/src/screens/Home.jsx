@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import { Url } from "../Share/Url";
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -9,7 +10,7 @@ export default function Home() {
   const [foodItem, setFoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://project-foodhub-frontend1.onrender.com", {
+    let response = await fetch(`${Url}/foodData`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
