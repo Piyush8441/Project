@@ -2,7 +2,9 @@ import React from "react";
 // import Delete from "@material-ui/icons/Delete";
 import { MdDelete } from "react-icons/md";
 
+
 import { useCart, useDispatchCart } from "../components/ContexReducer";
+import { Url } from "../Share/Url";
 export default function Cart() {
   let data = useCart();
   let dispatch = useDispatchCart();
@@ -16,7 +18,7 @@ export default function Cart() {
 
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
-    let response = await fetch("https://project-foodhub-backend1.onrender.com", {
+    let response = await fetch(`${Url}/foodData`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
