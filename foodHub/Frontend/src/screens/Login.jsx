@@ -11,7 +11,7 @@ export default function Login() {
   let navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://project-foodhub-frontend1.onrender.com", {
+    const response = await fetch("https://project-foodhub-backend1.onrender.com/api/loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
