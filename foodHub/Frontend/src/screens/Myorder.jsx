@@ -9,7 +9,7 @@ export default function Myorder() {
     const userEmail = localStorage.getItem("userEmail");
     console.log(userEmail);
 
-    const response = await fetch("https://project-foodhub-frontend1.onrender.com", {
+    const response = await fetch("https://project-foodhub-backend1.onrender.com/api/myorderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
